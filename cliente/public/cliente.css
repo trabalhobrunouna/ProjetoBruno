@@ -1,0 +1,149 @@
+body{
+    background-color: #2C2B2B;
+    color: white;
+    font-family: sans-serif;
+}
+.site{
+   padding-left: 1%;
+}
+.saudacao{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-size: 30pt;
+}
+.mensagem{
+    text-align: center;
+    font-size: 30pt;
+}
+.grid-menu{
+    display: grid;
+    grid-template-areas: "botao botao botao";
+    margin-left: 2rem;
+}
+.perfil{
+    background-color: #2C2B2B;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 24pt;
+    border: none;
+    margin-left: 2rem;
+    cursor: pointer;
+    outline: none;
+}
+.perfil img{
+    height: 4rem;
+    margin-right: 2rem;
+}
+.agendado{
+    background-color: #2C2B2B;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 24pt;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.agendado img{
+    height: 4rem;
+    margin-right: 2rem;
+}
+.sair{
+    background-color: #2C2B2B;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 24pt;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.sair img{
+    height: 4rem;
+    margin-right: 2rem;
+}
+.buscar{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.buscar input{
+    background-color: white;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 0.7rem 0.5rem;
+    margin-right: 0.5em;
+    outline: none;
+    flex-grow: 0.3;
+}
+.buscar input:focus{
+    background-color: rgb(228, 228, 228);
+}
+.botao{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 0.7rem 0.5rem;
+    margin-right: 0.5em;
+    outline: none;
+    flex-grow: 0.3;
+    cursor: pointer;
+}
+.botao:hover, .botao:focus{
+    background-color: #333;
+}
+.resultado{
+    background-color: white;
+    color: black;
+    font-size: 14pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 0.7rem 0.5rem;
+    margin-top: 4rem;
+    margin-right: 7rem;
+    margin-left: 6rem;
+    margin-bottom: 3rem;
+}
+.mais{
+    background-color: white;
+    color: gray;
+    font-size: 20pt;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+    outline: none;
+}
+.conjunto{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.res1{
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+.res2{
+    margin-left: 1rem;
+
+}
+.res3{
+    margin-left: 1rem;
+}
+.maisRes{
+    width: 1000px;
+    color: gray;
+    background-color: white;
+    font-size: 16pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 1.1rem;
+    outline: none;
+}
