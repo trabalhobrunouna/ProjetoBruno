@@ -1,0 +1,183 @@
+body{
+    background-color: #2C2B2B;
+}
+
+.ASO{
+    font-family: sans-serif;
+    font-size: 10pt;
+    color: #fff;
+    padding-left: 5rem;
+}
+
+.Titulo{
+    font-family: sans-serif;
+    font-size: 30pt;
+    color: #fff;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.Titulo2{
+    font-family: sans-serif;
+    font-size: 30pt;
+    color: #fff;
+    text-align: center;
+}
+
+.SubTitulo{
+    font-family: sans-serif;
+    font-size: 15pt;
+    color: #fff;
+    text-align: center;
+}
+
+.TituloMeio{
+    font-family: sans-serif;
+    font-size: 30pt;
+    color: #000;
+    text-align: center;
+    margin-top: 7rem;
+    margin-left: -1rem;
+}
+
+.Calendario{
+    margin-left: 08rem;
+    margin-top: 5rem;
+}
+.Agendar{
+    font-family: sans-serif;
+    font-size: 15pt;
+    color: black;
+    text-align: center;
+    margin-left: 5rem;
+    margin-top: -8rem;
+}
+
+.Agendar2{
+    font-family: sans-serif;
+    font-size: 13pt;
+    color: #000;
+    
+    margin-left: 10rem;
+    
+}
+
+.Encontrar{
+    font-family: sans-serif;
+    font-size: 15pt;
+    color: black;
+    text-align: center;
+    margin-left: 6rem;
+    margin-top: -7rem;
+    }
+
+.Encontrar2{
+    font-family: sans-serif;
+    font-size: 13pt;
+    color: black;
+    text-align: justify;
+    margin-left: 9rem;
+    }
+
+.Catalogo{
+    font-family: sans-serif;
+    font-size: 15pt;
+    color: black;
+    text-align: center;
+    margin-top: -8rem;
+    margin-left: 5rem;
+}
+
+.Catalogo2{
+    font-family: sans-serif;
+    font-size: 13pt;
+    color: black;
+    text-align: justify;
+    margin-left: 13rem;
+}
+
+.Selecionar{
+    font-family: sans-serif;
+    font-size: 15pt;
+    color: black;
+    text-align: center;
+    margin-top: -8rem;
+    margin-left: 0rem;
+}
+
+.Selecionar2{
+    font-family: sans-serif;
+    font-size: 13pt;
+    color: black;
+    text-align: justify;
+    margin-left: 9rem;
+}
+
+.Lado1{
+    display: flex;
+}
+
+.Lado2{
+    display: flex;
+}
+
+.Calendario img{
+    height: 100pt;
+}
+
+.Seção{
+    display: grid;
+    background-color: #fff;
+    grid-template-areas: "conteudo";
+    grid-column: span 2;
+    margin: 2rem;
+    padding-bottom: 8rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-bottom: -8rem;
+
+
+}
+
+.Lupa{
+    margin-left: 15rem;
+    margin-top: 5rem;
+
+}
+
+.Avaliar{
+    margin-left: 14rem;
+    margin-top: 10rem;
+}
+
+.Atualizar{
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+
+.Registrar{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 26rem;
+    background-color: #ffff;
+    color: #000;
+    font-size: 2rem;
+    border: 7px solid black;
+    border-radius: 6rem;
+    padding: 0.4rem 5rem;
+    margin-right: 0.5em;
+    outline: none;
+    flex-grow: 0.3;
+    cursor: pointer;
+    font-family: sans-serif;
+
+}
+
+.Registrar:hover, .Registrar:focus{
+    background-color: #333;
+}
+
+.Atualizar img{
+    height: 100pt;
+    margin-left: 3rem;
+}
