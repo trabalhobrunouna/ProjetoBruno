@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TelaDeCadastro.css">
+    <title>Tela De Cadastro</title>
+</head>
+
+<body>
+    <div class="NomeDoSite">
+        <p>ASO.com</p>
+    </div>
+
+    <div class="TituloCadastro">
+        <h1>Crie Sua Conta ASO</h1>
+    </div>
+
+    <section class="segundofundo">
+        <div class="Escolha">
+            <h2>Escolha seu tipo de conta</h2>
+        </div>
+        <div class="Conteudo">
+            <label class="radio1" for="Profissional">Profissional</label>
+            <input type="radio" id="Profissional" name="altenancia">
+            <label class="radio1" for="Cliente">Cliente</label>
+            <input type="radio" id="Cliente" name="altenancia">
+        </div>
+
+        <div class="email">
+            <h3>Email:</h3>
+        </div>
+        <form><input class="borda1" type="text" name="email">
+        </form>
+
+        <div class="senha">
+            <h3>Senha:</h3>
+        </div>
+        <form><input class="borda2" type="text" name="senha">
+            <p class="Requisito">Mínimo de 8 caracteres, <br>e pelo menos 1 número!</p>
+        </form>
+
+        <div class="ConfirmaSenha">
+            <h3>Confirma Senha:</h3>
+        </div>
+        <form>
+            <input class="borda3" type="text" name="Confirma Senha">
+        </form>
+
+        <div class="Nome">
+            <h3>Nome:</h3>
+        </div>
+        <form><input class="borda4" type="text" name="nome">
+        </form>
+
+        <div class="Sobrenome">
+            <h3>Sobrenome:</h3>
+        </div>
+        <form>
+            <input class="borda5" type="text" name="Sobrenome">
+        </form>
+
+        <div class="Cidade">
+            <h3>Cidade:</h3>
+        </div>
+        <form>
+            <input class="borda6" type="text" name="Cidade">
+        </form>
+
+        <div class="Estado">
+            <h3>Estado:</h3>
+        </div>
+        <form>
+            <input class="borda7" type="text" name="Estado">
+        </form>
+
+        <div class="Gênero">
+            <h3>Gênero:</h3>
+        </div>
+
+        <div class="Content">
+            <label for="M">M</label>
+            <input type="radio" id="M" name="altenancia1">
+
+            <label for="F">F</label>
+            <input type="radio" id="F" name="altenancia1">
+
+            <label for="Outro">Outro</label>
+            <input type="radio" id="Outro" name="altenancia1">
+
+            <label for="Prefiro não informar">Prefiro não <br>informar</label>
+            <input type="radio" id="Prefiro não informar" name="altenancia1">
+        </div>
+    </section>
+    <div>
+        <form class="Nome">
+            <button type="submit" class="btn">Cadastrar</button>
+        </form>
+    </div>
+</body>
+
+</html>

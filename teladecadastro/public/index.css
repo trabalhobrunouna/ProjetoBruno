@@ -1,0 +1,274 @@
+body{
+    background-color: #2C2B2B;
+    color: white;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+.segundofundo{
+    background: #FFFFFF;
+    border-radius: 30px;
+    opacity: 1;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-bottom: 35px;
+}
+
+input{
+    cursor: pointer;
+    margin-right: 40px;
+    appearance: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input:before{
+    content: '';
+    position: absolute;
+    height: 17.5px;
+    width: 17.5px;
+    background: black;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 600ms ease-in-out;
+}
+
+input:checked::before{
+    opacity: 1;
+}
+
+.NomeDoSite{
+    padding-left: 10%;
+}
+
+.TituloCadastro{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.Escolha {
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.Conteudo{
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-left: 37%;
+    margin-top: auto;
+    padding-right: 100px;
+}
+
+.email{
+    color: black;
+    margin-left: 313px;
+    font-size: 2.0rem;
+    margin-top: 60px;
+}
+
+.borda1{
+    font-size: 20px;
+    padding-left: 30px;
+    margin-left: 470px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    top: 460px;
+    cursor: pointer;
+}
+
+.senha{
+    color: black;
+    margin-left: 302px;
+    font-size: 2.0rem;
+    margin-top: 45px;
+}
+
+.borda2{
+    font-size: 20px;
+    padding-left: 30px;
+    margin-left: 470px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    top: 558px;
+    cursor: pointer;
+}
+
+.Requisito{
+    color: black;
+    margin-left: 890px;
+    margin-top: -4.7rem;
+}
+
+.ConfirmaSenha{
+    color: black;
+    margin-left: 128px;
+    font-size: 2.0rem;
+    margin-top: 45px;
+}
+
+.borda3{
+    font-size: 20px;
+    padding-left: 30px;
+    margin-left: 470px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    top: 653px;
+    cursor: pointer;
+}
+
+.Nome{
+    color: black;
+    margin-left: 300px;
+    font-size: 2.0rem;
+    margin-top: 45px;
+}
+
+.borda4{
+    font-size: 20px;
+    padding-left: 30px;
+    margin-left: 470px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    top: 745px;
+    cursor: pointer;
+}
+
+.Sobrenome{
+    color: black;
+    margin-left: 204px;
+    font-size: 2.0rem;
+    margin-top: 45px;
+}
+
+.borda5{
+    font-size: 20px;
+    padding-left: 30px;
+    margin-left: 470px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    top: 840px;
+    cursor: pointer;
+}
+
+.Cidade{
+    color: black;
+    margin-left: 285px;
+    font-size: 2.0rem;
+    margin-top: 45px;
+}   
+
+.borda6{
+    font-size: 20px;
+    padding-left: 30px;
+    margin-left: 470px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    top: 935px;
+    cursor: pointer;
+}
+
+.Estado{
+    color: black;
+    margin-left: 290px;
+    font-size: 2.0rem;
+    margin-top: 45px;
+}   
+
+.borda7{
+    font-size: 20px;
+    padding-left: 30px;
+    margin-left: 470px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    top: 1025px;
+    cursor: pointer;
+}
+
+.Gênero{
+    color: black;
+    margin-left: 278px;
+    font-size: 2.0rem;
+    margin-top: 45px;
+}
+
+.Content{
+    color: black; 
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: -88px;
+    padding-right: 100px;
+}
+
+label{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+button{
+    margin-left:200px;
+    position: center;
+    border-radius: 50px;
+    width: 400px;
+    height: 60px;
+    border: 3px solid #000000;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+button:hover, button:focus{
+    background-color: #333;
+}
