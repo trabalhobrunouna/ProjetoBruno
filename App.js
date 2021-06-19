@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Main from './Main'
+
+import main from './main'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Main />
+        <main />
       </div>
     );
   }

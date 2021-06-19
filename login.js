@@ -1,6 +1,9 @@
 import React, {useState, useEffect, Fragment} from 'react'
 import { NavLink } from 'react-router-dom'
 
+document.title = "Login";
+
+
 function Login(){
     return(
 <section>
@@ -20,16 +23,24 @@ function Login(){
             <input type="text" placeholder="insira sua senha"></input>
         </form>
 
-        <div class="centralizarLogin">
-        <button type="submit" class="entrarLogin">Entrar</button>
-        <p class="registLogin">Ainda não possui uma conta ASO? Registre-se agora:</p>
 
-        <NavLink to="cadastro"> 
+        
+        <div>
+        
+        <div class="centralizarLogin">
+        <NavLink to="login" style={{ textDecoration: 'none' }}>
+        <button type="submit" class="entrarLogin">Entrar</button>
+        </NavLink>
+        <p class="registLogin">Ainda não possui uma conta ASO? Registre-se agora:</p>
+        </div>
+        
+
+        <NavLink to="cadastro" style={{ textDecoration: 'none' }}> 
         <div>
         <button type="button" class="registrarLogin">Registrar</button>
         </div>
         </NavLink>
-
+        
         </div>
     </section>
     </section>

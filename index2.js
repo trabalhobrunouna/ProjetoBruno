@@ -1,59 +1,81 @@
-import React, {useState, useEffect, Fragment} from 'react'
-import { NavLink } from 'react-router-dom'
-
+import React, {useState, useEffect, Fragment} from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Index2(){
     return(
-<section>
-    <h2 class="ASO">ASO.com</h2>
-    <h1 class="Titulo">
-        Bem-Vindo ao ASO!
-    </h1>
-    <h1 class="Titulo2">
-        O sistema de Agendamento de Serviços Online!
-    </h1>
-    <h2 class="SubTitulo">
-        Venha fazer parte do nosso time! Você, profissional, demonstra suas habilidades, enquanto os clientes, se
-        satisfazem com o seu serviço.<br />
-        Ficaremos animados com os seus resultados e conseguiremos mais credibilidade para você e para o nosso site!
-    </h2>
-    <NavLink to="login"> 
+<section className="telaProfissionalP">
+<h5 class="ASOP">ASO.com</h5>
+  <h1 class="TituloP">Bem vindo, usuário</h1>
+
+  <section class="grid-menuP">
+    <div class="perfilP">
+    <NavLink to="PerfilP" style={{ textDecoration: 'none' }}> 
     <div>
-    <button type="button" class="Registrar"> REGISTRE-SE AGORA </button>
+      <button type="button" class="perfilP">
+        <img src="imagens/usuario.svg" alt="ícone usuário"/>
+        Perfil
+      </button>
+      </div>
+    </NavLink>
+    </div>
+    <NavLink to="solicitacoesAgendamento" style={{ textDecoration: 'none' }}>
+    <div class="agendadoP">
+      <button type="button" class="agendadoP">
+        <img src="imagens/relógio.svg" alt="ícone relógio"/>
+        Solicitações de agendamento
+      </button>
     </div>
     </NavLink>
-    
-    <section class="Seção">
-        <h1 class="TituloMeio">NA ASO, VOCÊ PODE</h1>
-        <div class="Lado1">
-            <div class="Calendario">
-                <img src="image/calendario.svg" alt="calendário" />
-                    <h2 class="Agendar">Agendar seus serviços</h2>
-                    <h3 class="Agendar2">Temos diversas opções disponíveis! <br />Você agenda conforme sua demanda.</h3>
-            </div>
-                
-                <div class="Lupa">
-                    <img src="image/lupa.svg" alt="lupa" />
-                    <h2 class="Encontrar">Encontrar o que procura</h2>
-                    <h3 class="Encontrar2">Em poucos minutos, você encontra <br />a solução do seu problema!</h3>
-                </div>
-        </div>
-    
-    <div class="Lado2">
-        <div class="Atualizar">
-            <img src="image/atualizacao.svg" alt="atualização" />
-            <h2 class="Catalogo">Catálogo Atualizado</h2>
-            <h3 class="Catalogo2">Há sempre novas opções para escolher!</h3>
-        </div>
-        <div class="Avaliar">
-            <img src="image/avaliacao.svg" alt="" />
-            <h2 class="Selecionar">Saiba qual selecionar</h2>
-            <h3 class="Selecionar2">Todos os serviços são avaliados de acordo <br />com a satisfação dos clientes!</h3>
-        </div>
+    <NavLink to="sair" style={{ textDecoration: 'none' }}>
+    <div class="sairP">
+      <button type="button" class="sairP" style={{ textDecoration: 'none' }}>
+        <img src="imagens/porta.svg" alt="ícone porta"/>
+        Sair
+      </button>
     </div>
-</section>
-</section>
-);
-}
+    </NavLink>
+  </section>
 
+  <section class="MenuquadradoBrancoP">
+    <div class="ServiçosPrestadosP">
+      <NavLink to= "CadServico">
+      <button type="button" class="botaoAdicionarServicosP">
+        Cadastrar Serviços
+      </button>
+      </NavLink>
+    </div>
+    <NavLink to ="msgP">
+    <div class="MensagensP">
+      <button type="button" class="MensagensP">
+        Mensagens
+      </button>
+    </div>
+    </NavLink>
+      <div class="VerAMais">
+    <div class="conjuntoProfissionalP">
+        <div class="res1ProfissionalP">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+        </div>
+        <NavLink to="vermaisP">
+            <div>
+            <button type="button" class="mais1ProfissionalP">Ver Mais</button>
+            </div>
+        </NavLink>
+    </div>
+    <div class="conjuntoProfissionalP2">
+        <div class="res1ProfissionalP2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+        </div>
+        <NavLink to="vermaisP">
+            <div>
+            <button type="button" class="mais1ProfissionalP2">Ver Mais</button>
+            </div>
+        </NavLink>
+    </div>
+    </div>
+  </section>
+  <div id="root"></div>
+  </section>
+  );
+}
 export default Index2;
